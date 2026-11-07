@@ -11,12 +11,13 @@ Bản hiện tại sử dụng chứng chỉ ký nội bộ, **chưa có Develop
 ## Sử dụng
 
 - Đăng nhập Google Drive và mở ổ trong thanh bên Finder.
+- Tài khoản được ghim tự động bằng tên ngắn trong Mục ưa thích. Có thể hiện thêm ổ native trong Cài đặt Finder của app.
 - Mặc định mở cùng macOS và tự kết nối các tài khoản khi mở app; có thể tắt trong Cài đặt hoặc cho từng tài khoản.
 - Giữ ứng dụng chạy để sử dụng ổ cloud; đóng cửa sổ vẫn giữ app ở thanh menu.
 - Thư mục được kiểm tra thay đổi khi sử dụng Finder. Thời gian hiển thị phụ thuộc callback/bộ nhớ đệm của macOS và phản hồi từ dịch vụ cloud.
 - Trong menu ứng dụng chọn **Kiểm tra bản cập nhật…**. Cài đặt có tùy chọn kiểm tra tự động và tải cập nhật tự động. App chờ tác vụ đang chạy trước khi cài cập nhật.
 
-## Phạm vi 1.0.0
+## Phạm vi hiện tại
 
 Google Drive là luồng đã được kiểm thử thực tế. OneDrive cần cấu hình Microsoft App Registration và kiểm thử tài khoản trước khi sử dụng; chưa được xác nhận tương đương Google Drive. Chưa có bản Windows.
 

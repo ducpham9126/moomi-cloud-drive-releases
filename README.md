@@ -13,7 +13,7 @@ Bản hiện tại sử dụng chứng chỉ ký nội bộ, **chưa có Develop
 ## Sử dụng
 
 - Chọn Google Drive hoặc OneDrive, đăng nhập và mở ổ trong thanh bên Finder; không nhập Application ID hoặc cấu hình Azure trong app.
-- Khi cài lần đầu và app báo **Bật tích hợp Finder**, chọn **Cho phép trong Finder…**, rồi bấm **Bật/Cho phép** trên đầu cửa sổ ổ cloud trong Finder. Quay lại app để tự kiểm tra kết nối. File Provider đã có sẵn trong app; **Mở khi đăng nhập** là tùy chọn khác.
+- Sau khi đăng nhập, app tự mount. Nếu macOS cần quyền dùng ổ cloud lần đầu, app tự mở đúng ổ trong Finder để bạn bấm **Bật/Cho phép**; không cần tìm Cài đặt hay cài gói mở rộng. App nhận trạng thái từ macOS và kiểm tra lại khi quay về cửa sổ chính. **Mở khi đăng nhập** là tùy chọn khác.
 - Tài khoản được ghim tự động bằng tên ngắn trong Mục ưa thích. Có thể hiện thêm ổ native trong Cài đặt Finder của app.
 - Mặc định mở cùng macOS và tự kết nối các tài khoản khi mở app; có thể tắt trong Cài đặt hoặc cho từng tài khoản.
 - App mặc định chỉ hiện trên thanh menu. Trong **Cài đặt → Chung → Hiển thị ứng dụng**, có thể hiện/ẩn riêng biểu tượng thanh menu và Dock; lựa chọn được lưu lại. Nếu ẩn cả hai, mở app từ Applications hoặc Spotlight để truy cập lại.

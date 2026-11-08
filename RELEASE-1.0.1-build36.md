@@ -3,8 +3,8 @@
 Build **36** sửa luồng cho phép ổ cloud khi cài lần đầu trên máy Mac khác.
 
 - Sửa hướng dẫn sai dẫn người dùng đến mục Mở khi đăng nhập/phần mở rộng macOS. File Provider đã có sẵn trong app; quyền bật ổ native được macOS hỏi trong Finder.
-- Nút **Cho phép trong Finder…** mở đúng ổ đang chờ. Menu tài khoản trên thanh menu cũng dùng cùng thao tác. App chỉ mở giao diện xin quyền của macOS; người dùng tự chọn Bật/Cho phép.
-- Khi quay lại app, kiểm tra lại các tài khoản đang chờ quyền, kể cả tài khoản không được chọn. Sau lần bật đầu tiên, hoàn tất lối tắt tên ngắn, dung lượng và tùy chọn tự mở Finder.
+- Sau khi đăng nhập hoặc chủ động kết nối, app tự mở đúng ổ đang chờ quyền để người dùng bấm xác nhận của macOS. Khởi động tự động không bật hàng loạt cửa sổ hướng dẫn. Nút **Cho phép trong Finder…** vẫn có để mở lại khi cần. Menu tài khoản trên thanh menu cũng dùng cùng thao tác. App chỉ mở giao diện xin quyền của macOS; người dùng tự chọn Bật/Cho phép.
+- Nhận sự kiện thay đổi domain của macOS khi app hoặc Finder đang được sử dụng, đồng thời kiểm tra lại khi quay về app. Kiểm tra các tài khoản đang chờ quyền, kể cả tài khoản không được chọn. Sau lần bật đầu tiên, hoàn tất lối tắt tên ngắn, dung lượng và tùy chọn tự mở Finder.
 - Không lặp đăng ký hoặc thiết lập thanh bên khi nhận nhiều sự kiện quay lại. Kết quả đến muộn không được tự kết nối lại tài khoản mà người dùng đã ngắt.
 - Giữ dịch vụ Keychain v1 đã ký, các tài khoản và cài đặt. Không thay cơ chế truyền tệp hay chạy phép đo tốc độ trong bản sửa này.
 

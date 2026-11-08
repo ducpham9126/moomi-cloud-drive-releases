@@ -6,13 +6,14 @@
 
 [Tải bản mới nhất](https://github.com/ducpham9126/moomi-cloud-drive-releases/releases/latest). Chọn tệp `.dmg`, mở và kéo **Moomi Cloud Drive.app** vào **Applications**. Yêu cầu macOS 15 trở lên; hỗ trợ Apple Silicon và Intel.
 
-Ghi chú phát hành chính thức: [1.0.0 · build 35](RELEASE-1.0.0-build35.md) — tag `v1.0.0-build35`.
+Bản mới nhất: [1.0.1 · build 36](RELEASE-1.0.1-build36.md) — tag `v1.0.1-build36`. Bản đầu chính thức [1.0.0 · build 35](RELEASE-1.0.0-build35.md) được giữ nguyên.
 
 Bản hiện tại sử dụng chứng chỉ ký nội bộ, **chưa có Developer ID/notarization của Apple**. Việc mở trên máy Mac khác có thể cần xử lý xác nhận của macOS. Không có yêu cầu tắt Gatekeeper toàn hệ thống.
 
 ## Sử dụng
 
 - Chọn Google Drive hoặc OneDrive, đăng nhập và mở ổ trong thanh bên Finder; không nhập Application ID hoặc cấu hình Azure trong app.
+- Khi cài lần đầu và app báo **Bật tích hợp Finder**, chọn **Cho phép trong Finder…**, rồi bấm **Bật/Cho phép** trên đầu cửa sổ ổ cloud trong Finder. Quay lại app để tự kiểm tra kết nối. File Provider đã có sẵn trong app; **Mở khi đăng nhập** là tùy chọn khác.
 - Tài khoản được ghim tự động bằng tên ngắn trong Mục ưa thích. Có thể hiện thêm ổ native trong Cài đặt Finder của app.
 - Mặc định mở cùng macOS và tự kết nối các tài khoản khi mở app; có thể tắt trong Cài đặt hoặc cho từng tài khoản.
 - App mặc định chỉ hiện trên thanh menu. Trong **Cài đặt → Chung → Hiển thị ứng dụng**, có thể hiện/ẩn riêng biểu tượng thanh menu và Dock; lựa chọn được lưu lại. Nếu ẩn cả hai, mở app từ Applications hoặc Spotlight để truy cập lại.

@@ -6,7 +6,7 @@
 
 [Tải bản mới nhất](https://github.com/ducpham9126/moomi-cloud-drive-releases/releases/latest). Chọn tệp `.dmg`, mở và kéo **Moomi Cloud Drive.app** vào **Applications**. Yêu cầu macOS 15 trở lên; hỗ trợ Apple Silicon và Intel.
 
-Bản mới nhất: [1.0.1 · build 36](RELEASE-1.0.1-build36.md) — tag `v1.0.1-build36`. Bản đầu chính thức [1.0.0 · build 35](RELEASE-1.0.0-build35.md) được giữ nguyên.
+Bản mới nhất: [1.0.2 · build 37](RELEASE-1.0.2-build37.md) — tag `v1.0.2-build37`. Bản đầu chính thức [1.0.0 · build 35](RELEASE-1.0.0-build35.md) được giữ nguyên.
 
 Bản hiện tại sử dụng chứng chỉ ký nội bộ, **chưa có Developer ID/notarization của Apple**. Việc mở trên máy Mac khác có thể cần xử lý xác nhận của macOS. Không có yêu cầu tắt Gatekeeper toàn hệ thống.
 

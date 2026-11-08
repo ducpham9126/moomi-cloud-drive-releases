@@ -1,7 +1,8 @@
 # Moomi Cloud Drive 1.0.0
 
-Bản chính thức đầu tiên, build **29**, có đăng nhập OneDrive bằng ứng dụng Microsoft riêng của Moomi, đăng ký trong **Entra Free**.
+Bản chính thức đầu tiên, build **31**, có đăng nhập OneDrive bằng ứng dụng Microsoft riêng của Moomi, đăng ký trong **Entra Free**.
 
+- Sửa tải OneDrive cá nhân khi thông tin file thiếu liên kết tải; bổ sung các máy chủ truyền file chính thức của Microsoft và giữ kiểm tra nội dung/phiên bản file.
 - Sửa lỗi mount khi Google Drive và OneDrive có cùng tên tài khoản; giữ các đường dẫn đã có và tạo tên ổ riêng cho tài khoản mới bị trùng.
 - Người dùng chọn OneDrive rồi đăng nhập tài khoản Microsoft; không nhập Application ID hoặc cấu hình Azure trong app.
 - Hỗ trợ đọc/tải file, tạo thư mục, tải lên file mới, đổi tên, di chuyển và chuyển vào Thùng rác trên OneDrive. Ghi đè nội dung file có sẵn vẫn bị chặn; khi chỉnh sửa, lưu thành bản mới.

@@ -6,7 +6,7 @@
 
 [Tải bản mới nhất](https://github.com/ducpham9126/moomi-cloud-drive-releases/releases/latest). Chọn tệp `.dmg`, mở và kéo **Moomi Cloud Drive.app** vào **Applications**. Yêu cầu macOS 15 trở lên; hỗ trợ Apple Silicon và Intel.
 
-Bản mới nhất: [1.0.2 · build 37](RELEASE-1.0.2-build37.md) — tag `v1.0.2-build37`. Bản đầu chính thức [1.0.0 · build 35](RELEASE-1.0.0-build35.md) được giữ nguyên.
+Phiên bản hiện đang phát hành nằm tại trang **Latest** phía trên. Bản đầu chính thức [1.0.0 · build 35](RELEASE-1.0.0-build35.md) được giữ nguyên.
 
 Bản hiện tại sử dụng chứng chỉ ký nội bộ, **chưa có Developer ID/notarization của Apple**. Việc mở trên máy Mac khác có thể cần xử lý xác nhận của macOS. Không có yêu cầu tắt Gatekeeper toàn hệ thống.
 
@@ -19,7 +19,9 @@ Bản hiện tại sử dụng chứng chỉ ký nội bộ, **chưa có Develop
 - App mặc định chỉ hiện trên thanh menu. Trong **Cài đặt → Chung → Hiển thị ứng dụng**, có thể hiện/ẩn riêng biểu tượng thanh menu và Dock; lựa chọn được lưu lại. Nếu ẩn cả hai, mở app từ Applications hoặc Spotlight để truy cập lại.
 - Giữ ứng dụng chạy để sử dụng ổ cloud; đóng cửa sổ vẫn giữ các kết nối hoạt động.
 - Đăng nhập được lưu trong Keychain qua helper có danh tính cố định giữa các bản cập nhật app. Khi chuyển từ bản thử cũ có thể cần cấp quyền một lần.
-- Thư mục được kiểm tra thay đổi khi sử dụng Finder. Thời gian hiển thị phụ thuộc callback/bộ nhớ đệm của macOS và phản hồi từ dịch vụ cloud.
+- Thư mục đang xem trong Finder được kiểm tra định kỳ, mặc định mỗi 3 giây; có thể đổi hoặc tắt trong **Cài đặt → Finder**. App dừng kiểm tra định kỳ khi không dùng Finder/Moomi hoặc máy nghỉ. Thời gian hiển thị còn phụ thuộc macOS và phản hồi của dịch vụ cloud.
+- Trong **Phiên bản**, xem các bản máy này được giữ lại khi file cùng được sửa trên cloud; chọn **Dùng bản cloud**, **Dùng bản máy này** hoặc **Giữ cả hai**. Bản giữ lại không tự bị xóa. Thao tác thay file Google Drive cần xác nhận và kiểm tra lại phiên bản; OneDrive hiện chỉ tạo file mới. Có thể mở các lựa chọn này từ menu chuột phải Finder của file hoặc thư mục có bản giữ lại.
+- Trong **Nhập ảnh**, chọn thư mục nguồn trên thẻ nhớ/USB/ổ ngoài, tài khoản cloud và thư mục đích; xem trước rồi tải lên. Ảnh được xếp theo ngày chụp EXIF vào các thư mục `dd.MM.yy/Anh Goc` và `dd.MM.yy/Raw`, giữ nguyên file nguồn. Có thể bật tự nhập khi cắm đúng thiết bị cho từng cấu hình; lượt chưa xác nhận được giữ để tiếp tục. Ảnh thiếu ngày chụp và cặp RAW/XMP không xác định được liệt kê để kiểm tra.
 - Trong menu ứng dụng chọn **Kiểm tra bản cập nhật…**. Cài đặt có tùy chọn kiểm tra tự động và tải cập nhật tự động. App chờ tác vụ đang chạy trước khi cài cập nhật.
 
 ## Phạm vi hiện tại

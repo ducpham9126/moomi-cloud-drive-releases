@@ -6,6 +6,8 @@
 
 [Tải bản mới nhất](https://github.com/ducpham9126/moomi-cloud-drive-releases/releases/latest). Chọn tệp `.dmg`, mở và kéo **Moomi Cloud Drive.app** vào **Applications**. Yêu cầu macOS 15 trở lên; hỗ trợ Apple Silicon và Intel.
 
+Ghi chú phát hành: [1.0.4 · build 26](RELEASE-1.0.4.md).
+
 Bản hiện tại sử dụng chứng chỉ ký nội bộ, **chưa có Developer ID/notarization của Apple**. Việc mở trên máy Mac khác có thể cần xử lý xác nhận của macOS. Không có yêu cầu tắt Gatekeeper toàn hệ thống.
 
 ## Sử dụng
@@ -20,6 +22,6 @@ Bản hiện tại sử dụng chứng chỉ ký nội bộ, **chưa có Develop
 
 ## Phạm vi hiện tại
 
-Google Drive là luồng đã được kiểm thử thực tế. OneDrive cần cấu hình Microsoft App Registration và kiểm thử tài khoản trước khi sử dụng; chưa được xác nhận tương đương Google Drive. Chưa có bản Windows.
+Google Drive là luồng đã được kiểm thử thực tế. OneDrive chưa khả dụng trong bản hiện tại; Moomi cần hoàn tất đăng ký Microsoft và kiểm thử tài khoản thật. Việc cấu hình thuộc phía nhà phát triển, người dùng không nhập Application ID trong ứng dụng. Chưa có bản Windows.
 
 Kho này chỉ chứa bản cài, ghi chú phát hành và dữ liệu cập nhật có chữ ký. Mã nguồn được lưu ở kho riêng tư của chủ sở hữu. Token tài khoản và khóa ký không nằm trong kho này.
